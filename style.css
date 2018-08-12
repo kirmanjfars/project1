@@ -1,0 +1,141 @@
+ /* body{
+       background-image: url(timer.jpg);
+}
+          */
+button{
+  margin-left: 20px;
+  margin-bottom: 5%;
+  padding: 1% 10%;
+  font-size: 24px;
+ 
+ border: none;
+ text-align: center;
+
+}
+ button:hover{
+    background-color:rgb(99, 37, 27);
+}
+
+ body div div{
+   text-align: center;
+  width: 50%;
+ margin: 10% auto;
+
+ border-radius: 10px;
+ background-color:rgb(33, 175, 73);
+ background: linear-gradient(-45deg, rgb(224, 114, 80, 0.5), rgb(74, 71, 255, 0.5), rgb(215, 255, 71, 0.5), rgb(255, 166, 71, 0.5));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+         
+h1{
+  font-size: 5em;
+ text-align: center;
+ padding-bottom: 5%;
+ text-shadow: 0 0 40px rgb(99, 37, 27);         
+}
+
+button {
+
+	cursor: pointer;
+    display: inline;
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.481);
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+   
+}
+button:hover {
+	color: #fff !important;
+	background-color: transparent;
+    text-shadow: none;
+    transform: scale(1);
+}
+button:hover:before {
+	bottom: 0%;
+	top: auto;
+	height: 100%;
+}
+button:before {
+	display: inline;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+    color: rgb(74, 71, 255);
+	
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    color: #fff;
+	background: linear-gradient(-45deg, rgb(196, 79, 43), rgb(74, 71, 255), rgb(215, 255, 71), rgb(255, 166, 71));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+
+
+/*---------------------------------------*/
+
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+
+
+button{
+    color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
